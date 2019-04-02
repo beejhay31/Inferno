@@ -113,7 +113,7 @@ y_pred
 29    125016.804574
 Name: YearsExperience, dtype: float64
 plt.plot(x,y_pred, color='blue', label='Regession Line')
-plt.scatter(x,y, color='red', label='Actual Data')
+plt.scatter(x,y, color='blue', label='Actual Data')
 plt.xlabel('YearsExperience')
 plt.ylabel('Salary')
 plt.legend()
